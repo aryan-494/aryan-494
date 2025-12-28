@@ -6,7 +6,7 @@
 🤖 Interested in responsible AI systems  
 
 ### 🚀 Current Work
-- Building **Ed-tech Platform (StudyNotion)** Full stack web Application – an AI-powered platform for misinformation awareness
+- Building **Ed-tech Platform (StudyNotion)** Full stack web Application
 - Working on full-stack projects
 
 ### 🛠 Tech Stack
