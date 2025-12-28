@@ -6,8 +6,8 @@
 🤖 Interested in responsible AI systems  
 
 ### 🚀 Current Work
-- Building **TrueDetective** – an AI-powered platform for misinformation awareness
-- Working on full-stack and backend projects
+- Building **Ed-tech Platform (StudyNotion)** – an AI-powered platform for misinformation awareness
+- Working on full-stack projects
 
 ### 🛠 Tech Stack
 - JavaScript / TypeScript
