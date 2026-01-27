@@ -1,5 +1,5 @@
 # About Me:
- B.Tech student at MITS, Gwalior<br>💻 Aspiring Software Developer (MERN stack)<br>🔧 Backend-focused | APIs | Databases<br>🤖 Interested in responsible AI systems<br><br>🚀 Current Work<br>Building Ed-tech Platform (StudyNotion) Full stack web Application<br>Working on full-stack projects<br> 
+ B.Tech student at MITS, Gwalior<br>💻 Software Developer (MERN stack)<br>🔧 Backend-focused | APIs | Databases<br>🤖 Interested in responsible AI systems<br><br>🚀 Current Work<br>Building Ed-tech Platform (StudyNotion) Full stack web Application<br>Working on full-stack projects<br> 
 
 
 ##  Socials:
