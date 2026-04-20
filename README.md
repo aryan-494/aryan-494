@@ -1,18 +1,92 @@
-# About Me:
- B.Tech student at MITS, Gwalior<br>💻 Software Developer (MERN stack)<br>🔧 Backend-focused | APIs | Databases<br>🤖 Interested in responsible AI systems<br><br>🚀 Current Work<br>Building Ed-tech Platform (StudyNotion) Full stack web Application<br>Working on full-stack projects<br> 
+  # Aryan Mishra
+  **Backend engineer. Distributed systems. Data synchronization. Offline-first architecture.**
 
+  ---
 
-##  Socials:
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/saksham.aryanmishra) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/Mishra_aryan_494) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/aryanmishra494) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:aryanmishra49712@gmail.com) 
+  I build backend systems designed to stay correct under pressure — unreliable networks, concurrent writes, and partial failures.
 
-#  Tech Stack:
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Chart.js](https://img.shields.io/badge/chart.js-F5788D.svg?style=for-the-badge&logo=chart.js&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) ![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-%23EC5990.svg?style=for-the-badge&logo=reacthookform&logoColor=white) ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) ![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-# GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=aryan-494&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=aryan-494&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=aryan-494&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+  My focus: **data consistency and real-time collaboration**. Specifically, how multiple clients stay in sync without sacrificing correctness, and how systems recover when things go wrong.
 
+  I think about failure modes before features.
 
-![](https://github-profile-trophy.vercel.app/?username=aryan-494&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+  ---
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+  ## Currently Exploring
+
+  - Distributed systems: **CRDTs, vector clocks, causal consistency**
+  - Database internals: **WAL, MVCC, storage engine design**
+  - Systems programming with **Rust**
+
+  ---
+
+  ## Projects
+
+  ### [NexusSync](https://github.com/aryan-494/NexusSync) · [Live](https://nexussync-client.vercel.app/)
+  *Offline-first collaborative task system designed for unreliable networks.*
+
+  The problem: keep multiple clients consistent when they disconnect mid-session, retry writes, and reconnect in arbitrary order.
+
+  - **Operation log (opLog):** every mutation is a discrete, idempotent unit with a unique ID. The server deduplicates by ID on every push — retries are always safe, double-writes are structurally impossible.
+  - **Push/pull replication:** WebSocket events (from MongoDB Change Streams) act as invalidation signals only. Clients pull diffs on notification — separating notification from data delivery eliminates write-then-read race conditions.
+  - **Sync hardening:** exponential backoff on failed pushes; debounced pull sync coalesces Change Stream bursts client-side — no request storms after reconnect.
+  - **Tenant isolation enforced at the transport layer:** per-workspace Socket.IO rooms backed by Redis. Cross-tenant event leakage is architecturally prevented.
+
+  `Node.js · Express · MongoDB · TypeScript · React · Socket.IO · Redis · IndexedDB · Docker`
+
+  ---
+
+  ### [StudyNotion](https://github.com/aryan-494/Edtech-platform)
+  *Multi-role EdTech platform with course management and payment flows.*
+
+  - **Authorization at the route layer:** access decisions are made before business logic runs. Privilege escalation is structurally prevented, not just guarded.
+  - **Index-first API design:** paginated REST APIs built around compound MongoDB indexes on nested documents. N+1 patterns eliminated by design.
+  - **Atomic payment enrollment:** Razorpay webhook signature verification + transactional writes. Payment and access grant commit together or both roll back — no partial-state failures.
+
+  `Node.js · Express · MongoDB · React · Redux Toolkit · Razorpay · Cloudinary`
+
+  ---
+
+  ### [TrueDetective](https://github.com/aryan-494)
+  *AI-backed fact verification pipeline with typed, schema-safe output.*
+
+  - **Zod validation at every IO boundary** — input, API response, and output. Model deviations are caught before they surface as untyped runtime errors.
+  - **Contract-first pipeline:** each stage carries a defined input/output schema enforced at compile time. Schema violations in model output were the primary failure mode during development — and are now fully hardened.
+
+  `Node.js · Express · TypeScript · React · Gemini API`
+
+  ---
+
+  ## Technical Skills
+
+  | | |
+  |---|---|
+  | **Backend** | Node.js, Express, REST APIs, Socket.IO, JWT, Zod |
+  | **Frontend** | React, Next.js, TypeScript, Zustand, Tailwind CSS |
+  | **Databases** | MongoDB (Change Streams, Indexes, Transactions), Redis, PostgreSQL |
+  | **Systems** | Offline-First, Idempotent APIs, Eventual Consistency, Multi-Tenant SaaS |
+  | **Languages** | TypeScript, JavaScript, C++, Python |
+  | **DevOps** | Docker, Git, GitHub Actions, Vercel, Railway, MongoDB Atlas |
+
+  ---
+
+  ## Engineering Approach
+
+  - Model failure modes and edge cases first — then write the happy path
+  - Idempotency and retry safety are API contract decisions, not implementation patches
+  - Auth and access control belong at the structural layer, not scattered through business logic
+  - Notification, data delivery, and state are separate concerns — conflating them creates race conditions
+  - Explicit typed contracts at IO boundaries over defensive runtime checks
+
+  ---
+
+  ## GitHub Stats
+
+  <p align="left">
+    <img src="https://github-readme-stats.vercel.app/api?username=aryan-494&show_icons=true&theme=default&hide_border=true&include_all_commits=true&count_private=true&hide=stars&rank_icon=github" height="150"/>
+    &nbsp;&nbsp;
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aryan-494&layout=compact&theme=default&hide_border=true&langs_count=6" height="150"/>
+  </p>
+
+  ---
+
+  [aryanmishra49712@gmail.com](mailto:aryanmishra49712@gmail.com) &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/aryanmishra494) &nbsp;·&nbsp; [GitHub](https://github.com/aryan-494)
