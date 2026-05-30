@@ -88,4 +88,4 @@ The problem: keep multiple clients consistent when they disconnect mid-session, 
 
 ---
 
-[aryanmishra49712@gmail.com](mailto:aryanmishra49712@gmail.com) &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/aryanmishra494) &nbsp;·&nbsp; [GitHub](https://github.com/aryan-494) &nbsp;·&nbsp; [X](https://x.com/Mishra_aryan_49)
+[aryanmishra49712@gmail.com](mailto:aryan494work@gmail.com) &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/aryan494) &nbsp;·&nbsp; [GitHub](https://github.com/aryan-494) &nbsp;·&nbsp; [X](https://x.com/Mishra_aryan_49)
